@@ -1,24 +1,29 @@
 const employees = [
   {
-    name: "James",
+    name: 'James',
     age: 40,
-    hobbies: ["Football", "Social media"],
+    hobbies: ['Football', 'Social media']
   },
   {
-    name: "Alex",
+    name: 'Alex',
     age: 25,
-    hobbies: ["Cryptocurrency", "Social media"],
+    hobbies: ['Cryptocurrency', 'Social media']
   },
   {
-    name: "Alicia",
+    name: 'Alicia',
     age: 29,
-    hobbies: ["Shopping", "Reading novels"],
+    hobbies: ['Shopping', 'Reading novels']
   },
   {
-    name: "Kody",
+    name: 'Kody',
     age: 19,
-    hobbies: ["Computer games", "Wakeboard"],
-  },
+    hobbies: ['Computer games', 'Wakeboard']
+  }
 ];
 
 // Start coding here
+let updateEmployees = employees;
+
+updateEmployees.pop();
+
+console.log(updateEmployees);
